@@ -9,8 +9,38 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'custom-blue': '#05254B'
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+      },
+      fontSize: {
+        '32px': '32px',
+      },
+      fontWeight: {
+        '500': '500',
+        '600': '600',
+        '700': '700'
+      },
+      lineHeight: {
+        '48px': '48px',
+        '36px': '36px'
+      },
+      spacing: {
+        '247': '247px',
+        '64': '64px',
+        '182': '182px',
+        '795': '795px',
+      },
+      screens: {
+        'tablet': '640px',
+        // => @media (min-width: 640px) { ... }
+
+        'laptop': '1024px',
+        // => @media (min-width: 1024px) { ... }
+
+        'desktop': '1280px',
+        // => @media (min-width: 1280px) { ... }
       },
     },
   },

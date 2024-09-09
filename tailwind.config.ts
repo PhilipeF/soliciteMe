@@ -9,13 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'custom-blue': '#05254B'
+        'custom-blue': '#05254B',
+        'header-color': '#010B17'
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
       },
       fontSize: {
         '32px': '32px',
+        '20px': '20px',
+        '40px': '40px',
+        '24px': '24px'
       },
       fontWeight: {
         '500': '500',
